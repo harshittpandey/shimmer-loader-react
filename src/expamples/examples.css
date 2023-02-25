@@ -1,0 +1,62 @@
+.example3 .card {
+  width: 250px;
+  height: 400px;
+  border: 1px solid gray;
+  padding: 20px;
+}
+
+.example3 .card__image {
+  width: 100%;
+  height: 40%;
+  border: 1px solid gray;
+  margin-bottom: 20px
+}
+
+.example3 .card__image img {
+  width: 100%;
+  height: 100%;
+}
+
+.example3 .card__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.example3 .card__profile {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid gray
+}
+
+.example3 .card__profile img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.example3 .card__username {
+  margin-left: 20px;
+  flex: 1;
+}
+
+.example3 .card__body {
+  line-height: 1.5rem;
+}
+
+.example3 .card--button {
+  background: #665803;
+  width: 100%;
+  height: 40px;
+  border: none;
+  color: white;
+  padding: 12px 0;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 15px;
+  cursor: pointer;
+  box-sizing: border-box;
+}

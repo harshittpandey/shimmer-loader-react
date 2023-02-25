@@ -1,0 +1,34 @@
+/* container of shimmer-loader(s) */
+.shimmer-loader-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: inherit;
+  border: none;
+  overflow: hidden;
+  /* testing */
+  text-align: inherit;
+}
+
+/* responsible for showing shimmer loader */
+.shimmer-loader-container .shimmerBG {
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-name: shimmer;
+  animation-timing-function: linear;
+  background: #ddd;
+  animation-duration: 2.2s;
+  background: linear-gradient(to right, #F6F6F6 8%, #F0F0F0 18%, #F6F6F6 33%);
+  background-size: 1200px 100%;
+  min-height: 10px;
+  margin-bottom: 10px;
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -1200px 0;
+  }
+  100% {
+    background-position: 1200px 0;
+  }
+}
